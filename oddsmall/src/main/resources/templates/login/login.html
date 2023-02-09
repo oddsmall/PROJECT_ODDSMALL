@@ -7,8 +7,42 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/login/login.css">
 </head>
 <body>
-    
+    <div class="login-header">
+    로그인
+    </div>
+    <div class="login-box">
+        <div class="login-id">
+            아이디 <input id="login-input" name="userId" type="text" placeholder="ID"/>
+            </div>
+        <div class="login-password">
+            비밀번호 <input id="login-input" name="userPassword" type="text" placeholder="PASSWORD"/>
+        </div>
+    </div>
+
+    <div class="let-join">
+        <a id="find-id">아이디</a>나 <a id="find-password">비밀번호</a>를 잊으셨나요 ? 
+    </div>
+
+    <div class="let-login">
+        <div id="join">
+            <a>회원가입</a>
+        </div>
+        <div id="login">
+            <a>로그인</a>
+        </div>
+    </div>
+
+    <div class="division-login-mode">
+        <div class="s">
+            <a id="kakao-login">카카오 1초 로그인/회원가입</a>
+        </div>
+        <div class="naver-login">
+            <a id="naver-login">네이버 1초 로그인/회원가입</a>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
