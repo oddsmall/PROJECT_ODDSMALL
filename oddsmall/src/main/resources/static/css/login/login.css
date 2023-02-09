@@ -1,0 +1,56 @@
+.login-header{
+    text-align: center;
+    font-size: 70px;
+}
+
+.login-box{
+    text-align: center;
+}
+
+.login-id{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.login-password{
+    padding: 15px;
+    font-size: 30px;
+}
+
+#login-input{
+    width: 200px;
+    height: 50px;
+    letter-spacing: 5px;
+}
+
+.let-join{
+    text-align: right;
+}
+
+#find-id{
+    text-decoration: underline;
+}
+
+#find-password{
+    text-decoration: underline;
+}
+
+.let-login{
+    text-align: right;
+}
+
+.kakao-login{
+    width: 480px;
+    height: 50px;
+}
+
+.naver-login{
+    width: 480px;
+    height: 50px;
+    
+    border-radius: 30px;
+}
+
+.division-login-mode{
+    text-align: center;
+}
