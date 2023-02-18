@@ -4,11 +4,11 @@
     --default_aliceblue: #f0f8ff;
     --default_babyblue: #e7feff;
 
-    --button: #4e72df;
-    --button-g: #1cc88a;
-    --button-c: #858796;
+    --button: var(--default_babyblue);
     --button-hover: #3734eb;
+    --button-g: #1cc88a;
     --button-g-hover: #16a06d;
+    --button-c: #858796;
     --button-c-hover: #5B5B5B;
     --button-border: #4e73df;
     --disabled: #eaecf4;
@@ -26,12 +26,11 @@
     --nav-border: rgba(255, 255, 255, 0.3);
 }
 
-html { width: 100vw; min-height: 100vh; overflow-x: hidden; }
-
-header { height: 50px; }
-footer { height: 50px; }
+/* html { width: 100vw; min-height: 100vh; overflow-x: hidden; } */
 
 a { cursor:pointer; color: black;}
+
+svg { pointer-events: none; }
 
 input { font-size: 14px; padding: 0 10px; border-radius: 5px; border: 1px solid var(--lightblack_2); }
 input:focus { animation: fadein .1s ease; animation-fill-mode: forwards; }
@@ -46,7 +45,7 @@ textarea:focus { animation: fadein .1s ease; animation-fill-mode: forwards; }
     100% { outline: 3px solid rgba(78, 114, 223, .3); }
 }
 
-button { color: white; border-radius: 5px; cursor: pointer; background: var(--button); }
+button { color: black; border-radius: 5px; cursor: pointer; background: var(--button); }
 button:hover { transition: background-color .3s; background-color: var(--button-hover); }
 
 .customSelect { padding: 5px; font-size: 14px; cursor:pointer; outline: 1px solid var(--lightblack_3); border-radius: 5px; background-color: snow; position: relative; height: 30px; width:50%; }
