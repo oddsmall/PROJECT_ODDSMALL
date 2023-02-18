@@ -1,0 +1,65 @@
+.headerWrapper {
+    width: 100%;
+    background-color: var(--default_aliceblue);
+}
+
+.headerIn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 95%;
+    height: 50px;
+
+    margin: auto;
+    padding: 10px 5px;
+
+    overflow: hidden;
+}
+
+.menuButton {
+    width: 40px;
+    height: 40px;
+
+    outline: 1px solid var(--lightblack_5);
+}
+
+.iconLink {
+    position: absolute;
+    top: 60px;
+    transform: translate(-25%, 0);
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    padding: 15px;
+
+    border: 1px solid var(--lightblack_5);
+    border-radius: 5px;
+}
+.iconLink > div {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.iconLink > div > button {
+    width: inherit;
+    height: inherit;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo > img {
+    width: 300px;
+}
+
+.userBox > div {
+    display: flex;
+    gap : 5px;
+}

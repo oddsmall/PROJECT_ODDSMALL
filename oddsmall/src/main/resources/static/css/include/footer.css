@@ -1,0 +1,29 @@
+.footerContainer {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.footerWrapper {
+    color: var(--lightblack_5);
+}
+
+.footerWrapper div {
+    font-size: 12px;
+}
+
+.footerWrapper > div {
+    display: flex;
+    align-items: center;
+}
+
+.footerWrapper > div:first-child > div {
+    font-weight: bold;
+}
+
+.footerWrapper > div > div {
+    padding: 0px 10px;    
+}
+
+.footerWrapper > div > div:not(:first-child) {
+    border-left: 1px solid var(--lightblack_5);
+}
