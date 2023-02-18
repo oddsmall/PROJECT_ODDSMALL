@@ -1,56 +1,115 @@
-.login-header{
+.loginWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    width: 30%;
+    height: 50%;
+    border: 1px solid black;
+    transform: translate(-50%, -50%);
+}
+
+.login-header {
+
     text-align: center;
     font-size: 70px;
 }
 
-.login-box{
-    text-align: center;
+.inputWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-.login-id{
-    padding: 15px;
+.login-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 35%;
+}
+
+.login-box > div {
+    display: flex;
     font-size: 30px;
+    justify-content: space-between;
 }
 
-.login-password{
-    padding: 15px;
-    font-size: 30px;
+.login-box > div > p {
+    display: flex;
+    align-items: center;
 }
 
-#login-input{
+.login-id-input {
     width: 200px;
     height: 50px;
     letter-spacing: 5px;
 }
 
-.let-join{
-    text-align: right;
+.login-password-input {
+    width: 200px;
+    height: 50px;
+    letter-spacing: 5px;
 }
 
-#find-id{
+.login {
+    border: 1px solid black;
+    border-radius: 0%;
+    color: black;
+
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+.login:hover{
+    background-color: aliceblue;
+}
+
+.joinWrapper {
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+}
+
+.let-join {
+    text-align: right;
+    left: 30px;
+}
+
+.find-id {
     text-decoration: underline;
 }
 
-#find-password{
+.find-password {
     text-decoration: underline;
 }
 
-.let-login{
+.let-login {
     text-align: right;
 }
 
-.kakao-login{
-    width: 480px;
-    height: 50px;
+.kakao-login {
+    height: 40px;
+    border-radius: 10px;
+    background-color: yellow;
 }
 
-.naver-login{
-    width: 480px;
-    height: 50px;
-    
-    border-radius: 30px;
+.naver-login {
+    height: 40px;
+    background-color: green;
+    border-radius: 10px;
 }
 
-.division-login-mode{
-    text-align: center;
+.division-login-mode {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
