@@ -10,43 +10,46 @@
     <link rel="stylesheet" href="/static/css/login/login.css">
 </head>
 <body>
-    <div class="loginWrapper">
-        <div class="login-header">
-        로그인
-        </div>
-
-        <div class="inputWrapper">
-            <div class="login-box">
-                <div class="login-id">
-                    <p>아이디</p> <input class="login-id-input" name="userId" type="text" placeholder="ID"/>
+    <div class="loginContainer">
+        <div class="loginWrapper">
+            <div class="login-header">
+            로그인
+            </div>
+    
+            <div class="inputJoinWrapper">
+                <div class="inputWrapper">
+                    <div class="login-box">
+                        <div class="login-id">
+                            <p>아이디</p> <input class="login-id-input" name="userId" type="text" placeholder="ID"/>
+                            </div>
+                        <div class="login-password">
+                            <p>비밀번호</p> <input class="login-password-input" name="userPassword" type="text" placeholder="PASSWORD"/>
+                        </div>
                     </div>
-                <div class="login-password">
-                    <p>비밀번호</p> <input class="login-password-input" name="userPassword" type="text" placeholder="PASSWORD"/>
+                    <div id="login">
+                        <button class="login">로그인</a>
+                    </div>
                 </div>
-            </div>
-            <div id="login">
-                <button class="login">로그인</a>
-            </div>
-        </div>
-
-        <div class="joinWrapper">
-            <div class="let-join">
-                <a class="find-id">아이디</a>나 <a class="find-password">비밀번호</a>를 잊으셨나요 ? 
-            </div>
-            <div class="join">
-                <a>회원가입</a>
-            </div>
-        </div>
-
-        <div class="division-login-mode">
-            <div class="kakao-login-box">
-                <button class="kakao-login">카카오 1초 로그인/회원가입</a>
-            </div>
-            <div class="naver-login-box">
-                <button class="naver-login">네이버 1초 로그인/회원가입</a>
+        
+                <div class="joinWrapper">
+                    <div class="join">
+                        <a>회원가입</a>
+                    </div>
+                    <div class="let-join">
+                        <a class="find-id">아이디</a>나 <a class="find-password">비밀번호</a>를 잊으셨나요 ? 
+                    </div>
+                </div>
+            </div>    
+    
+            <div class="division-login-mode">
+                <div class="kakao-login-box">
+                    <button class="kakao-login">카카오 1초 로그인/회원가입</a>
+                </div>
+                <div class="naver-login-box">
+                    <button class="naver-login">네이버 1초 로그인/회원가입</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </body>
 </html>
