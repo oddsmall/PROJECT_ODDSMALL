@@ -1,0 +1,18 @@
+div{
+    border: 1px solid red;
+}
+
+.userJoinContainer > div.userInformationWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.userJoinWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userInformationWrapper > div{
+    display: flex;
+}

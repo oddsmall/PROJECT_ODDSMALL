@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/join/join1.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="userJoinContainer">
+
+        <div class="userJoinWrapper">
+            <div class="userJoinHeader">기본정보</div>
+            <div class="informCheckAvail">※표시는 반드시 입력하셔야 하는 항목입니다.</div>
+        </div>
+
+        <div class="userInformationWrapper">
+            
+            <div class="fillInUserId">
+                <p>아이디</p>
+                <input class="userId">
+            </div>
+            
+            <div class="fillInUserPassword">
+                <p>비밀번호</p>
+                <input class="userPassword" placeholder="영문대/소문자, 숫자, 특수문자 중 2가지 이상 조합하세요">
+            </div>
+            
+            <div class="toCheckPassword">
+                <p>비밀번호 확인</p>
+                <input class="checkPassword">
+            </div>
+            
+            <div class="fillInUserName">
+                <p>이름</p>
+                <input class="userName">
+            </div>
+            
+            <div class="fillInUserEmail">
+                <p>이메일</p>
+                <input class="userEmail">
+                <select name="selectDomain">직접입력</select>
+                <input type="checkbox" name="agreeEvent"/>
+                정보/이벤트 메일 수신에 동의합니다
+            </div>
+
+            <div class="fillInUserPhone">
+                <p>휴대폰번호</p>
+                <input class="userPhoneNo" placeholder="-없이 입력하세요">
+            </div>
+
+            <div class="fillInUserSecondPhone">
+                <p>전화번호</p>
+                <input class="userSecondPhoneNo" placeholder="-없이 입력하세요">
+            </div>
+
+            <div class="fillInUserAddress">
+                <input class="zipCd"> <button class="searchZipCd"></button>
+                <input class="userAddress1"/>
+                <input class="userAddress2"/>
+            </div>
+
+            <div class="cancelOrJoinWrapper">
+                <button class="cancelJoin">취소</button>
+                <button class="wantJoin">회원가입</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
