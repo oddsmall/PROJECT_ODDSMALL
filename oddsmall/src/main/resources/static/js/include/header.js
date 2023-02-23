@@ -12,7 +12,7 @@ $("#menuButton").on("click", (e)=>{
 $(window).on("scroll", () => {
     let yScroll = window.scrollY;
 
-    if (yScroll > 0) {
+    if (yScroll > '80') {
         $("#headerWrapper").css("position", "fixed")
         $("#headerWrapper").css("top", "0")
         $("#headerWrapper").css("left", "0")

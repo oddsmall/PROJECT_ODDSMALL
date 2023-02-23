@@ -1,0 +1,18 @@
+.mainImageWrapper {
+    min-width: 100%;
+}
+
+.mainImageDiag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.diagH {
+    height: 70vh;
+    transform:sKewX(15deg) translate(-40%, 0px);
+
+    border: 1px solid black;
+}
