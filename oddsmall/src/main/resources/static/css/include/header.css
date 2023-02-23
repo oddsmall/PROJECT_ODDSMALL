@@ -3,13 +3,13 @@
     background-color: var(--default_aliceblue);
 }
 
-.headerIn {
+.headerInner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     width: 95%;
-    height: 50px;
+    height: 60px;
 
     margin: auto;
     padding: 10px 5px;

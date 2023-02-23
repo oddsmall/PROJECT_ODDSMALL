@@ -1,29 +1,33 @@
-.footerContainer {
+.footerWrapper {
     background-color: aliceblue;
-    padding: 20px;
+    width: 100%;
 }
 
-.footerWrapper {
+.footerInner {
+    width: 97%;
+    height: 80px;
+    margin: auto;
+    padding: 20px 0px;
     color: var(--lightblack_5);
 }
 
-.footerWrapper div {
+.footerInner div {
     font-size: 12px;
 }
 
-.footerWrapper > div {
+.footerInner > div {
     display: flex;
     align-items: center;
 }
 
-.footerWrapper > div:first-child > div {
+.footerInner > div:first-child > div {
     font-weight: bold;
 }
 
-.footerWrapper > div > div {
+.footerInner > div > div {
     padding: 0px 10px;    
 }
 
-.footerWrapper > div > div:not(:first-child) {
+.footerInner > div > div:not(:first-child) {
     border-left: 1px solid var(--lightblack_5);
 }
