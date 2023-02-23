@@ -1,38 +1,44 @@
-.loginWrapper {
+.loginContainer {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 30%;
     
+    padding: 40px 0px;
+
+    border-radius: 5px;
+    outline: 1px solid var(--lightblack_3);
+}
+
+.loginWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    align-items: center;
 
-    width: 30%;
-    height: 50%;
-    border: 1px solid black;
-    transform: translate(-50%, -50%);
 }
 
 .login-header {
-
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .inputWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
 }
 
 .login-box {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 
-    width: 35%;
+    margin-bottom: 20px;
 }
 
 .login-box > div {
@@ -44,6 +50,8 @@
 .login-box > div > p {
     display: flex;
     align-items: center;
+    
+    margin-right: 15px;
 }
 
 .login-id-input {
@@ -59,12 +67,11 @@
 }
 
 .login {
-    border: 1px solid black;
-    border-radius: 0%;
+    border-radius: 5px;
     color: black;
+    border: 1px solid var(--lightblack_2);
 
-    height: 100px;
-    transition: all 0.3s ease;
+    padding: 30px 10px;
 }
 
 .login:hover{
@@ -72,9 +79,13 @@
 }
 
 .joinWrapper {
-    justify-content: center;
+    justify-content: space-between;
     gap: 50px;
     display: flex;
+}
+
+.join > a:hover{
+    text-decoration: underline;
 }
 
 .let-join {
