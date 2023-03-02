@@ -2,17 +2,83 @@ div{
     border: 1px solid red;
 }
 
-.userJoinContainer > div.userInformationWrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.userJoinLargeContainer {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translate(0%, 0%);
+
+    width: 60%;
+
+    padding: 40px 0px;
+}
+
+.userJoinContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+        padding: 35px;
+    
+        border-radius: 5px;
+        outline: 1px solid var(--lightblack_3);
 }
 
 .userJoinWrapper{
     display: flex;
     justify-content: space-between;
+
+    border-bottom: 2px solid var(--lightblack_3);
 }
 
-.userInformationWrapper > div{
+.userJoinWrapper > div:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.userInformationWrapper { 
     display: flex;
+    flex-direction: column;
+}
+
+.userInformationWrapper > div {
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+    
+    height: 50px;
+
+    border-bottom: 1px solid var(--lightblack_3);
+}
+
+.userInformationWrapper > div > div {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
+
+.userInformationWrapper > div > div:first-child{
+    width: 30%;
+
+    background-color: aliceblue;
+
+    padding-left: 30px;
+    box-sizing: border-box; /*패딩 포함 길이 (보더 포함, 마진 미포함)*/
+}
+
+.userInformationWrapper input {
+    height: 80%;
+}
+
+.userAddress{
+    flex-direction: column;
+
+    height: 100px;
+}
+
+.userAddress > div {
+    width: 100%;
+    height: 50px;
 }
